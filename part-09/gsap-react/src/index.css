@@ -19,25 +19,32 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-direction: column;
 }
 
-.container {
-    padding: 20px;
-    border: 3px solid white;
+button {
+    padding: 15px 40px;
+    color: #fff;
+    border-radius: 50px;
+    border: 3px solid #fff;
+    background: transparent;
+    font-weight: 700;
+    font-size: 35px;
+    cursor: pointer;
 }
 
 .box {
     height: 300px;
     width: 300px;
-    border-radius: 10px;
-    margin: 20px;
-    background: linear-gradient(to right bottom, rgb(225, 87, 115), crimson);
-}
-
-.circle {
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    margin: 20px;
-    background: linear-gradient(to right bottom, lightblue, cadetblue);
+    border-radius: 20px;
+    background: linear-gradient(
+        to right bottom,
+        rgb(239, 124, 191),
+        rgb(246, 28, 144)
+    );
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600;
+    justify-content: center;
 }
